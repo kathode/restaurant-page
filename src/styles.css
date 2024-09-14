@@ -17,3 +17,67 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+#content {
+  flex: 1;
+}
+
+.restaurant-wall {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-wall-tile {
+  display: flex;
+  flex-direction: column;
+  background: #b1aeae;
+  gap: 1px;
+  overflow: hidden;
+}
+
+.tile-row {
+  display: flex;
+  gap: 1px;
+}
+
+.tile-row:nth-child(even) {
+  transform: translateX(-75px);
+}
+
+.tile {
+  width: 150px;
+  display: block;
+}
+
+.restaurant-wall-wood-slat {
+  background: rgb(87, 85, 85);
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 0.5rem;
+}
+
+.wood-slat {
+  box-shadow: 1px 1px rgb(71, 70, 70), -1px 0 0.4em rgb(40, 40, 40);
+}
+
+.wood-slat-1 {
+  background-color: #e6bf83;
+  background: linear-gradient(to bottom, #d0a35f, #e6bf83 50%);
+}
+
+.wood-slat-2 {
+  background-color: #ddb375;
+}
+
+.wood-slat-3 {
+  background-color: #cfa86f;
+}
+
+.wood-slat-4 {
+  background-color: #d0a35f;
+  background: linear-gradient(to top, #d0a35f, #e6bf83 50%);
+}
