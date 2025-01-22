@@ -22,7 +22,7 @@ module.exports = {
       template: "./src/template.html",
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: "src/assets/banh-mi.png", to: "favicon.png" }],
+      patterns: [{ from: "src/assets/favicon.png", to: "favicon.png" }],
     }),
   ],
 
