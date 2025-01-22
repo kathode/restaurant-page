@@ -18,14 +18,28 @@ body {
 
 #content {
   flex: 1;
+  position: relative;
 }
 
 .restaurant-wall {
   height: 100vh;
   width: 100vw;
+  position: absolute;
   overflow: hidden;
-  background-image: url("./assets/wave-haikei.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: -1;
+}
+
+.wall-blob-pink {
+  background-image: url("./assets/blob-pink.svg");
+}
+
+.wall-blob-green {
+  background-image: url("./assets/blob-green.svg");
+}
+
+.wall-wave {
+  background-image: url("./assets/wave-haikei.svg");
 }
