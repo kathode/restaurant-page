@@ -48,7 +48,6 @@ body {
   width: 100vw;
   display: grid;
   place-items: center;
-  cursor: pointer;
 }
 
 .square {
@@ -77,6 +76,7 @@ body {
   height: 200px;
   width: 200px;
   transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
 }
 
 .arrow-image {
