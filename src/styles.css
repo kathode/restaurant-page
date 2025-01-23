@@ -48,6 +48,7 @@ body {
   width: 100vw;
   display: grid;
   place-items: center;
+  cursor: pointer;
 }
 
 .square {
@@ -75,5 +76,31 @@ body {
   outline: 2px solid #f5f0f059;
   height: 200px;
   width: 200px;
-  transition: scale 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.arrow-image {
+  background-image: url("./assets/arrows/curve-arrow-green-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 3rem;
+  width: 3rem;
+  transform: rotate(-60deg);
+  transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu-prompt-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.prompt {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem 2rem 0 0;
 }
