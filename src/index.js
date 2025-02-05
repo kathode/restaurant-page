@@ -24,8 +24,13 @@ const content = document.querySelector("#content");
   const title = document.createElement("h1");
   const banhMiImg = document.createElement("img");
   const plateContainer = document.createElement("div");
+  const plateOutline = document.createElement("div");
   const container = document.createElement("div");
   const square = document.createElement("div");
+
+  const contactContainer = document.createElement("div");
+  const contactOrange = document.createElement("div");
+  const contactPhoneImage = document.createElement("div");
 
   const menuPromptWrapper = document.createElement("div");
   const arrowImg = document.createElement("div");
@@ -38,14 +43,14 @@ const content = document.querySelector("#content");
   prompt.textContent = "Eat me";
   banhMiImg.src = banhMi;
 
-  plateContainer.addEventListener("mouseover", () => {
-    plateContainer.style.scale = 1.1;
-    arrowImg.style.transform = "rotate(-50deg)";
+  plateOutline.addEventListener("mouseover", () => {
+    plateOutline.style.scale = 1.1;
+    arrowImg.style.transform = "rotate(-55deg)";
     menuPromptWrapper.style.opacity = 1;
   });
 
-  plateContainer.addEventListener("mouseleave", () => {
-    plateContainer.style.scale = 1;
+  plateOutline.addEventListener("mouseleave", () => {
+    plateOutline.style.scale = 1;
     arrowImg.style.transform = "rotate(-60deg)";
     menuPromptWrapper.style.opacity = 0;
   });
@@ -55,6 +60,11 @@ const content = document.querySelector("#content");
   title.classList.add("title");
   banhMiImg.classList.add("banh-mi-img");
   plateContainer.classList.add("plate-container");
+  plateOutline.classList.add("plate-outline");
+  contactContainer.classList.add("contact-container");
+
+  contactOrange.classList.add("contact-orange");
+  contactPhoneImage.classList.add("contact-phone-image");
 
   menuPromptWrapper.classList.add("menu-prompt-wrapper");
   prompt.classList.add("prompt");
@@ -63,7 +73,12 @@ const content = document.querySelector("#content");
   menuPromptWrapper.appendChild(arrowImg);
   menuPromptWrapper.appendChild(prompt);
 
-  plateContainer.appendChild(banhMiImg);
+  contactContainer.appendChild(contactOrange);
+  contactContainer.appendChild(contactPhoneImage);
+
+  plateOutline.appendChild(banhMiImg);
+  square.appendChild(contactContainer);
+  plateContainer.appendChild(plateOutline);
   square.appendChild(title);
   square.appendChild(plateContainer);
   square.appendChild(menuPromptWrapper);
