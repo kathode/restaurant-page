@@ -81,6 +81,10 @@ const content = document.querySelector("#content");
   banhMiImg.src = banhMi;
   menuListExitButton.textContent = "x";
 
+  contactContainer.addEventListener("click", () => {
+    window.location.href = "tel:123-456-7890";
+  });
+
   plateOutline.addEventListener("mouseover", () => {
     plateOutline.style.scale = 1.1;
     arrowImg.style.transform = "rotate(-55deg)";
