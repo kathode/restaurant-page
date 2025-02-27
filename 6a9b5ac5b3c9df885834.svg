@@ -1,0 +1,27 @@
+<svg id="visual" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <rect x="0" y="0" width="900" height="600" fill="#FF6F61"></rect>
+    <path d="M0 407L37.5 412.7C75 418.3 150 429.7 225 423.8C300 418 375 395 450 400.5C525 406 600 440 675 452.3C750 464.7 825 455.3 862.5 450.7L900 446L900 601L862.5 601C825 601 750 601 675 601C600 601 525 601 450 601C375 601 300 601 225 601C150 601 75 601 37.5 601L0 601Z" fill="#D2B48C" stroke-linecap="round" stroke-linejoin="miter"></path>
+    <g transform="translate(0 450)" >
+        <g transform="translate(184 90)">
+            <path d="M14 6.4C11.2 12.9 -2.7 11.3 -6.9 3.9C-11.1 -3.4 -5.6 -16.4 1.4 -15.6C8.4 -14.8 16.8 -0.1 14 6.4Z" fill="#ae8e6c"></path>
+        </g>
+        <g transform="translate(104 56)">
+            <path d="M13.2 5C11.4 10.7 0.3 8.5 -3.4 1.7C-7.2 -5.2 -3.6 -16.6 1.9 -15.5C7.5 -14.3 15 -0.7 13.2 5Z" fill="#ae8e6c"></path>
+        </g>
+        <g transform="translate(435 49)">
+            <path d="M11.2 6.6C6.5 14.6 -10.8 15.4 -14.8 7.8C-18.7 0.3 -9.4 -15.7 -0.7 -16.1C7.9 -16.5 15.9 -1.4 11.2 6.6Z" fill="#ae8e6c"></path>
+        </g>
+        <g transform="translate(324 25)">
+            <path d="M10.3 7.5C7.3 11.3 -5.5 10.9 -8.9 7C-12.2 3.1 -6.1 -4.3 0.3 -4.2C6.7 -4 13.4 3.8 10.3 7.5Z" fill="#ae8e6c"></path>
+        </g>
+        <g transform="translate(781 24)">
+            <path d="M7.7 1.3C5.8 7.7 -2.8 7.1 -5.2 0.4C-7.5 -6.3 -3.8 -19.2 0.5 -18.9C4.8 -18.6 9.6 -5.2 7.7 1.3Z" fill="#ae8e6c"></path>
+        </g>
+        <g transform="translate(671 81)">
+            <path d="M7.6 1.4C6.1 7 -1.4 6.1 -3.7 0.1C-6 -5.9 -3 -17 0.8 -16.6C4.6 -16.1 9.1 -4.1 7.6 1.4Z" fill="#ae8e6c"></path>
+        </g>
+        <g transform="translate(21 5)">
+            <path d="M9.1 5C7.8 7.4 0.1 5.9 -2.5 2.7C-5.1 -0.5 -2.5 -5.3 1.3 -4.5C5.2 -3.8 10.3 2.6 9.1 5Z" fill="#ae8e6c"></path>
+        </g>
+    </g>
+</svg>
